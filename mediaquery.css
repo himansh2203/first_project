@@ -1,0 +1,50 @@
+@media only screen and (max-width: 1000px){
+    .section_left{
+        padding: 10rem 8rem 4rem 8rem;
+    }
+
+    nav{
+        display: none;
+    }
+
+    #menuicon{
+        display: block;
+    }
+}
+
+@media only screen and (max-width: 800px){
+    .bottom{
+        flex-wrap: wrap;
+    }
+}
+
+@media only screen and ( max-width : 600px){
+    .section_left{
+        display:center;
+        width: 100%;
+        padding:10rem 4rem 4rem 4rem;
+    }
+    .section_right{
+        display: none;
+    }
+
+    .socialicons{
+        position: fixed;
+    }
+}
+
+@media only screen and (max-width: 400px){
+    .header_box{
+        width :90%;
+        justify-content: space-between;
+    }
+
+    .materials{
+        top:24rem;
+        left:-11rem;
+    }
+
+    .socialicons{
+        display:none;
+    }
+}
